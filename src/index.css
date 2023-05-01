@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    font-family: 'Inter', sans-serif;
+}
+
+.main{
+    background-color: #FBFBFB;
+}
+
+.text-gradient{
+    background: linear-gradient(177.26deg, rgba(3, 7, 18, 0) -28.64%, #9C9C9C 109.5%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+}
+
+.ft{
+    margin-top: 31rem ;
+}
