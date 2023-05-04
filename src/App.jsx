@@ -26,6 +26,11 @@ const App = () => {
     const response = await fetch(import.meta.env.VITE_OPENAI_API_URL, options);
     const json = await response.json();
 
+    if (!json || !json.choices || json.choices.length === 0) {
+      console.log("No data returned from API")
+      return;
+    }
+
     const data = json.choices[0].text.trim();
 
     console.log(data)
