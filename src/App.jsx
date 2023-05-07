@@ -19,7 +19,7 @@ const App = () => {
       },
       body: JSON.stringify({
         model: 'text-davinci-003',
-        prompt: 'Extract keywords from this text. Make the first letter of each word uppercase and separate with commas. keywords must not exceed 20\n\n' + text + '',
+        prompt: 'Extract keywords from this text. Make the first letter of each word uppercase and separate with commas.\n\n' + text + '',
         temperature: 0.5,
         max_tokens: 60,
         frequency_penalty: 0.8,
