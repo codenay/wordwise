@@ -16,9 +16,8 @@ To get started with WordWise, follow these steps:
 
 ## Usage
 
-To use WordWise, simply paste a block of text into the input field and click the "Extract" button. The app will generate a list of the most important keywords based on the text you provided. You can customize the number of keywords to extract by adjusting the slider.
+To use WordWise, simply paste a block of text into the input field and click the "Extract Keywords" button. The app will generate a list of the most important keywords based on the text you provided.
 
-To copy the extracted keywords to your clipboard, click the "Copy" button.
 
 ## Contributing
 
